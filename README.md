@@ -59,25 +59,32 @@ You can also manage the addon container from your terminal:
 •	sudo ./frigate_reporter.sh check
 
 
-Additional screenshots:
+**Additional screenshots:**
+
 
 Semantic search section:
+
 <img width="1633" height="887" alt="image" src="https://github.com/user-attachments/assets/22eb11db-83fd-4027-b8f8-20f8fd3dbb5b" />
 
 LPR Section:
+
 <img width="1625" height="886" alt="image" src="https://github.com/user-attachments/assets/a5175ad6-c1b3-4de9-b825-435fa5feb6ca" />
 
 Site Map section:
+
 <img width="1622" height="902" alt="image" src="https://github.com/user-attachments/assets/419f2aa2-3790-422f-9f0a-e81bb9bf945a" />
 
 Additional Dashboard:
+
 <img width="1599" height="904" alt="image" src="https://github.com/user-attachments/assets/67317938-2124-4ebd-9a4b-6bb698336321" />
 
 <img width="1635" height="753" alt="image" src="https://github.com/user-attachments/assets/15195295-de55-4f7d-90a8-b4d424dff2f7" />
 
 Executive PDF Reports:
+
 <img width="1654" height="890" alt="image" src="https://github.com/user-attachments/assets/aa1f368a-5614-45f0-93d9-84e5b1029541" />
 
+Example Report:
 
 [frigate_executive_summary.pdf](https://github.com/user-attachments/files/21723661/frigate_executive_summary.pdf)
 
