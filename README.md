@@ -27,6 +27,7 @@ Prerequisites
 This script is designed for Debian-based systems (like Ubuntu, Debian) and requires the following to be installed:
 •	Docker: To run the addon container.
 •	sqlite3: To perform initial checks on your Frigate database.
+The addon automatically uses the "frigate" docker container if using the easy installation script. No additional configuration is needed.
 
 The script will attempt to automatically install these dependencies using apt-get if they are not found.
 
@@ -90,5 +91,12 @@ Example Report:
 
 
 
-**This is a community-developed project and is not officially supported by the Frigate team.**
+
+Disclaimer & About
+
+This is a community-developed project and is not officially supported by the Frigate team. It was created as a proof-of-concept to explore what was possible.
+This project is provided "as is" and without any warranty. The author is not responsible for any damage or loss caused by its use. You are using this software at your own risk.
+This script was developed in collaboration with a large language model (Google's Gemini). The entire process, from initial code generation to debugging and refinement, was guided and validated by Google Gemini, and end users.
+
+**This is a community-developed project and is not officially supported by the Frigate team.** 
 
