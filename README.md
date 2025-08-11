@@ -1,12 +1,6 @@
 # frigatenvr-reporter-addon
 A standalone web dashboard and reporting tool for Frigate NVR.
 
-This project is provided "as is" and without any warranty. The author is not responsible for any damage or loss caused by its use. You are using this software at your own risk.
-This script was developed in collaboration with a large language model (Google's Gemini). The entire process, from initial code generation to debugging and refinement, was guided and validated by Google Gemini, and end users.
-
-Disclaimer
-This is a community-developed project and is not officially supported by the Frigate team. It was created as a proof-of-concept to explore what was possible.
-
 <img width="1641" height="892" alt="image" src="https://github.com/user-attachments/assets/f04b854c-e294-4d20-bf40-04c41cddba7c" />
 
 Frigate Reporter Addon:
@@ -16,6 +10,7 @@ A standalone, self-contained script that deploys a web-based dashboard and repor
 The entire application, including the Python backend and web UI, is created and managed by a single bash script.
 
 Features
+
 •	Analytics Dashboard: Visualize detection statistics, including total events, hourly trends, most active cameras, and most frequent objects.
 •	Site Map: Upload a floor plan or map and place camera icons to visualize your layout and view live camera status.
 •	Explore & Search: Use natural language (semantic search) to find specific events (e.g., "a red car driving down the street").
@@ -23,7 +18,9 @@ Features
 •	PDF & CSV Export: Generate detailed PDF executive summaries or export raw event data to CSV for further analysis.
 •	Easy Installation: Single-script deployment with minimal dependencies.
 
+
 Prerequisites
+
 This script is designed for Debian-based systems (like Ubuntu, Debian) and requires the following to be installed:
 •	Docker: To run the addon container.
 •	sqlite3: To perform initial checks on your Frigate database.
@@ -31,15 +28,18 @@ The addon automatically uses the "frigate" docker container if using the easy in
 
 The script will attempt to automatically install these dependencies using apt-get if they are not found.
 
+
 Installation
+
 1.	Download the frigate_reporter.sh script to your Frigate server.
 2.	Make the script executable:
 3.	chmod +x frigate_reporter.sh
-
 4.	Run the installer with sudo. It needs root permissions to interact with Docker and install dependencies.
 5.	sudo ./frigate_reporter.sh install
 
+
 Note on SSL Certificate: The script generates a self-signed SSL certificate for HTTPS. When you first access the web UI, your browser will show a security warning. This is expected. Please proceed past the warning to access the application.
+
 
 Usage
 
