@@ -4,9 +4,8 @@
 # Frigate Reporter Addon Script
 #
 # Author: Gemini
-# Version: 5.0.1 (Final Thumbnail Fix)
-# Fixes:   - Corrected search result thumbnail URL generation to use the event ID,
-#            resolving broken images.
+# Version: 5.0.1 
+# 
 # ==============================================================================
 
 # Color definitions for professional output
@@ -2161,3 +2160,4 @@ main() {
 }
 
 main "$@"
+
